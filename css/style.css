@@ -1,0 +1,76 @@
+
+.email_lister_div{
+    height:auto;
+    padding:5px 0px;
+    position:relative;
+    display:block;
+    margin:0 auto;
+    
+}
+.email_lister_form{
+    margin-top:2.5%;
+    width:80%;
+    position: relative;
+    left:10%;
+}
+.email_lister_input{
+    width: 100% !important;
+    text-align:center;
+    margin:2% 0% !important;
+    height:40px;
+    border:none !important;
+  
+}
+#email_lister_submit{
+    position: relative !important;
+    display:block !important;
+    width:25% !important;
+    text-align:center !important;
+    margin:2% auto !important;
+    padding: 10px 0px !important;
+    font-size: 1.2em;
+    
+}
+.lister_warn_message{
+    opacity: 0;
+    padding: 4% 0%;
+    background: white;
+    border: 1.5px solid red;
+    width:60%;
+    left: 20%;
+    position: relative;
+    display:none;
+    margin-top: 2%;
+    text-align: center;
+    color: red;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 767px) {
+    input{
+        font-size:16px !important;
+    }
+    .lister_warn_message {
+        padding: 2% 0%;
+        background: white;
+        border: 1.5px solid red;
+        width: 80%;
+        left: 10%;
+        font-size: .85em;
+        position: relative;
+        display: block;
+        margin-top: 2%;
+        text-align: center;
+        color: red;
+        border-radius: 5px;
+        font-weight: 900;
+    }
+    #email_lister_submit {
+        position: relative !important;
+        display: block !important;
+        width: 80% !important;
+        text-align: center !important;
+        margin: 2% auto !important;
+    }
+}
